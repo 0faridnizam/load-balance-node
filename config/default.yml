@@ -1,0 +1,20 @@
+# Locally
+server:
+  host: 127.0.0.1
+  port: 8080
+
+# time out if there's no activity
+proxyTimeout: 10000
+
+# upstream servers
+upstream-proxy:
+  - host: 127.0.0.1
+    port: 3001
+  - host: 127.0.0.1
+    port: 3002
+  - host: 127.0.0.1
+    port: 3003
+  - host: 127.0.0.1
+    port: 3004
+  - host: 127.0.0.1
+    port: 3005
